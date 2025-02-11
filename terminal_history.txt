@@ -1,0 +1,456 @@
+    1  openssl version
+    2  cleqr
+    3  lcleqr
+    4  cleqr
+    5  setxkbmap fr
+    6  clear
+    7  ls
+    8  clear
+    9  mkdir keys
+   10  ls
+   11  cd keys
+   12  clear
+   13  openssl genrsa -out corp.gomycode.com.key 2048
+   14  ls
+   15  cat corp.gomycode.com.key
+   16  ls
+   17  openssl rsa -in corp.gomycode.com.key -pubout -out corp.gomycode.com_public.key\n
+   18  ls
+   19  openssl req -new -key corp.gomycode.com.key -out corp.gomycode.com.csr
+   20  ls
+   21  clear
+   22  openssl req -text -in corp.515support.com.csr -noout -verify
+   23  openssl req -text -in corp.gomycode.com.csr -noout -verify
+   24  openssl req -newkey rsa:2048 -nodes -keyout corp.gomycode.com.key -x509 -days 365 -out corp.gomycode.com.crt
+   25  openssl pkcs12 -export -name "corp.gomycode.com" -out corp.gomycode.com.pfx -inkey corp.gomycode.com.key -in corp.gomycode.com.crt
+   26  clear
+   27  ls
+   28  cd ..
+   29  ls
+   30  rm -R keys
+   31  clear
+   32  ls
+   33  clear
+   34  ls
+   35  clear
+   36  exit
+   37  sudo service ssh start
+   38  nmap localhost
+   39  exit
+   40  ls
+   41  cleqr
+   42  setxkbmap fr
+   43  clear
+   44  nslookup 
+   45  clear
+   46  ls
+   47  ping 172.16.103.134
+   48  arp -a
+   49  ifconfig
+   50  clear
+   51  ls
+   52  ifconfig
+   53  clear
+   54  ifconfig
+   55  clear
+   56  ping 8.8.8.8
+   57  clear
+   58  ping debianGomycode.debian.gomycode.com
+   59  sudo vim /etc/hosts
+   60  ping debianGomycode.debian.gomycode.com
+   61  clear
+   62  ls
+   63  ifconfig
+   64  clear
+   65  ls
+   66  clear
+   67  exit
+   68  ping debianGomycode.debian.gomycode.com
+   69  nslookup 172.16.103.134
+   70  arp -a
+   71  clear
+   72  ping debianGomycode.debian.gomycode.com
+   73  clear
+   74  nslookup 172.16.103.134
+   75  sudo nslookup 172.16.103.134
+   76  ping  172.16.103.134\n
+   77  sudo nslookup 172.16.103.134
+   78  ping  172.16.103.134\n
+   79  nmap 172.16.103.134\n
+   80  clear
+   81  nmap 172.16.103.134\n
+   82  nmap debianGomycode.debian.gomycode.com
+   83  nslookup debianGomycode.debian.gomycode.com
+   84  dig -x 172.16.103.134
+   85  cat /etc/resolv.conf\n
+   86  ifconfig
+   87  nslookup debianGomycode.debian.gomycode.com
+   88  nslookup debianGomycode.debian.gomycode.comsudo systemctl status systemd-resolved\n
+   89  sudo systemctl status systemd-resolved
+   90  nslookup debianGomycode.debian.gomycode.com
+   91  nmap 172.16.103.134\n
+   92  sudo nslookup 172.16.103.134
+   93  nmap 172.16.103.134\n
+   94  nslookup 172.16.103.134
+   95  nmap 172.16.103.134\n
+   96  clear
+   97  nmap sudo systemctl restart NetworkManager\n
+   98  nmap debianGomycode.debian.gomycode.com
+   99  dig -x 172.16.103.134
+  100  nslookup 172.16.103.134
+  101  ifconfig
+  102  clear
+  103  ping google.com
+  104  nslookup 172.16.103.134
+  105  ifconfig
+  106  nslookup youtube.com 172.16.103.134
+  107  nslookup 172.16.103.134
+  108  nslookup google.com
+  109  ping google.com
+  110  clear
+  111  nslookup google.com 172.16.103.134
+  112  nslookup 172.16.103.134
+  113  IFCONFIG
+  114  ifconfig
+  115  nmap debianGomycode.debian.gomycode.com
+  116  ping 8.8.8.8
+  117  cleqr
+  118  setxkbmap fr
+  119  clear
+  120  ls
+  121  clear
+  122  ifconfig
+  123  nmap debianGomycode.debian.gomycode.com
+  124  nslookup 172.16.103.134
+  125  dig -x 172.16.103.134
+  126  exit
+  127  ping 172.16.103.134
+  128  dig -x 172.16.103.134
+  129  ping debianGomycode.debian.gomycode.com
+  130  ping debianGomycode.gomycode.com
+  131  setxkbmap fr
+  132  nmap localhost
+  133  sudo apt install ssh
+  134  sudo apt-get install ssh
+  135  sudo apt-get install openssh-server
+  136  sudo service ssh start
+  137  nmap localhost
+  138  clear
+  139  arp -a
+  140  ifconfig
+  141  cat /etc/hosts
+  142  ping 172.16.103.132
+  143  sudo nano /etc/hosts
+  144  ping windowsServer.gomycode.com
+  145  sudo nano /etc/hosts
+  146  ping windowsServer.gomycode.com
+  147  cat /etc/hosts
+  148  sudo nano /etc/hosts
+  149  ping windowsServer.gomycode.com
+  150  clear
+  151  ls
+  152  clear
+  153  curl -I windowsServer.gomycode.com
+  154  nmap windowsServer.gomycode.com
+  155  tcpdump -vv dst windowsServer.gomycode.com and port www -w auth.txt
+  156  sudo tcpdump -vv dst windowsServer.gomycode.com and port www -w auth.txt
+  157  wireshark auth.txt
+  158  setxkbmap fr
+  159  nmap localhost
+  160  sudo apt install ssh
+  161  sudo apt-get install ssh
+  162  sudo apt-get install openssh-server
+  163  sudo service ssh start
+  164  clear
+  165  nmap ssh
+  166  nmap localhost
+  167  clear
+  168  sudo apt-get install openvas
+  169  id
+  170  info
+  171  hostnamectl
+  172  clear
+  173  sudo apt install openvas
+  174  sudo apt update && sudo apt upgrade -y
+  175  setxkbmap fr
+  176  clear
+  177  sudo apt install openvas
+  178  sudo dpkg --configure -a
+  179  sudo apt install openvas
+  180  sudo apt install openvas --fix-missing 
+  181  clear
+  182  sudo gvm-setup 
+  183  gvm-check-setup
+  184  sudo gvm-check-setup
+  185  sudo systemctl daemon-reload && sudo systemctl restart gvmd.service gsad.service
+  186  sudo do-release-upgrade
+  187  ALTER DATABASE <your-database-name> REFRESH COLLATION VERSION;
+  188  postgresql
+  189  service postgresql
+  190  service postgresql start
+  191  sudo gvm-check-setup
+  192  sudo pg_ctlcluster 15 main start
+  193  sudo service postgresql restart
+  194  sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-database
+  195  sudo gvm-check-setup
+  196  sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-database
+  197  run ALTER DATABASE
+  198  psql 
+  199  sudo psql 
+  200  psql
+  201  ifconfig
+  202  clear
+  203  exit
+  204  sudo gvm-check-setup
+  205  setxkbmap fr
+  206  cd /etc/postgresql
+  207  ls
+  208  cd 15
+  209  ls
+  210  cd main
+  211  ls
+  212  cat environment
+  213  cat pg_ctl.conf
+  214  cat pg_hba.conf
+  215  sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-database
+  216  sudo service postgresql restart
+  217  sudo gvm-setup 
+  218  sudo gvm-check-setup
+  219  alter collation pg_catalog."de_DE.utf8" refresh version;\nalter collation pg_catalog."de_DE" refresh version;\nalter collation pg_catalog."en_US.utf8" refresh version;\nalter collation pg_catalog."en_US" refresh version;
+  220  qalter 
+  221  clear
+  222  sudo apt install gvm
+  223  sudo apt autoremove
+  224  claer
+  225  clear
+  226  sudo gvm-setup
+  227  sudo -u postgres psql\n
+  228  sudo service postgresql restart
+  229  sudo gvm-setup
+  230  sudo -u postgres psql\n
+  231  sudo service postgresql restart\n
+  232  sudo gvm-setup
+  233  sudo gvm-check-setup
+  234  ss -lnt4
+  235  sudo -u postgres psql\n
+  236  sudo service postgresql restart
+  237  sudo -u postgres psql\n
+  238  sudo gvm-check-setup
+  239  setxkbmap fr
+  240  clear
+  241  openvasmd --user=admin --new-password=sup3rs3cr3t
+  242  sudo gvm-setup
+  243  sudo gvm-start
+  244  ls
+  245  cleqr
+  246  setxkbmap fr
+  247  clear
+  248  ls
+  249  clear
+  250  sudo gvm-start
+  251  sudo apt install openvasmd
+  252  sudo -u postgres psql\n
+  253  gvmd --user=admin --new-password=Gomycode01*
+  254  sudo gvmd --user=admin --new-password=Gomycode01*
+  255  sudo gvm-stop
+  256  sudo gvm-start
+  257  sudo gvmd --user=admin --new-password=Gomycode01*
+  258  sudo gvmd --user=admin --new-password=Gomycode01
+  259  openvasmd
+  260  gvmd
+  261  gvmd --user=admin --new-password=Gomycode01
+  262  sudo gvmd --user=admin --new-password=Gomycode01
+  263  sudo service postgresql restart
+  264  \n\n    sudo -E -u _gvm gvmd --user=admin --new-password=Gomycode01\n
+  265  setxkbmap fr
+  266  clear
+  267  ls
+  268  clear
+  269  ls
+  270  clear
+  271  sudo gvm-start
+  272  sudo -E -u _gvm gvmd --user=admin --new-password=Gomycode01\n
+  273  setxkbmap fr
+  274  exit
+  275  sudo gvm-start
+  276  sudo gvm-stop
+  277  msfdb init
+  278  sudo msfdb init
+  279  clear
+  280  exit
+  281  ifconfig
+  282  exit
+  283  cd ;qin
+  284  cd home 
+  285  cd 
+  286  cd ..
+  287  mkdir blacky
+  288  sudo mkdir blacky
+  289  cd blacky
+  290  touch hello
+  291  ls
+  292  cd blacky
+  293  cd ..
+  294  cd home 
+  295  mkdir blacky
+  296  sudo mkdir blacky
+  297  cd blacky
+  298  echo hichiheb 
+  299  ls
+  300  touch hello.txt
+  301  sudo touch hello.txt
+  302  sudo echo hiyoudidit hello.txt
+  303  ls
+  304  cd hello.TXT
+  305  rm -R hello.TXT
+  306  rm -R hello.txt
+  307  sudo rm -r hello.txt
+  308  clear
+  309  touch you did it man.txt
+  310  touch ok.txt
+  311  sudo touch ok.txt
+  312  cat ok.txt 
+  313  echo hi bro you did iut 
+  314  cat ok.txt
+  315  echo ok
+  316  ls
+  317  echo mmmm
+  318  clear
+  319  chmod ok.txt
+  320  ls
+  321  sudo chmod ok.txt
+  322  chmod -help 
+  323  chmod --help 
+  324  chmod -c ok.txt
+  325  clear
+  326  cd home 
+  327  cd home
+  328  cd..
+  329  cd ..
+  330  cd home 
+  331  cd home
+  332  ls
+  333  cd blacky
+  334  ls
+  335  clear
+  336  ls
+  337  chmod +x
+  338  chmod +x ok.txt
+  339  sudo chomd +x ok.txt 
+  340  -p
+  341  --verbose -p
+  342  scan_time
+  343  ipconfig
+  344  ipconfige
+  345  ip config
+  346  ^[[200~
+  347  mkdir note
+  348  ls
+  349  cd note
+  350  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+  351  ssh -p 2220 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If@bandit.labs.overthewire.org
+  352  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+  353  clear
+  354  ssh -p 2220 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If@bandit.labs.overthewire.org
+  355  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+  356  ssh -p 2220 bandit1@bandit.labs.overthewire.org
+  357  ssh -p 2220 bandit2@bandit.labs.overthewire.org
+  358  ssh -p 2220 bandit3@bandit.labs.overthewire.org
+  359  ssh -p 2220 bandit4@bandit.labs.overthewire.org
+  360  ssh -p 2220 bandit5@bandit.labs.overthewire.org
+  361  ssh -p 2220 bandit6@bandit.labs.overthewire.org
+  362  ssh -p 2220 bandit5@bandit.labs.overthewire.org
+  363  ssh -p 2220 bandit6@bandit.labs.overthewire.org
+  364  ssh -p 2220 bandit7@bandit.labs.overthewire.org
+  365  ssh -p 2220 bandit8@bandit.labs.overthewire.org
+  366  ssh -p 2220 bandit9@bandit.labs.overthewire.org
+  367  /user/bin/msfpc exe
+  368  /user/bin/msfpc 
+  369  /usr/bin/msfpc exe
+  370  msfconsole -q
+  371  msfconsole -q -r '/home/kali/windows-meterpreter-staged-reverse-tcp-443-exe.rc'
+  372  apt install goole chrom
+  373  link google-chrome-stable_current_amd64.deb\n
+  374  cd /home/kali/Downloads/
+  375  ls 
+  376  sudo apt update 
+  377  google-chrome --version 
+  378  sudo 
+  379  sudo apt install ./google-chrome-stable_current_amd64.deb
+  380  google-chrome --version 
+  381  ls 
+  382  mv example2.log Dowlands Desktop
+  383  cd..
+  384  cd ..
+  385  ls 
+  386  cd Desktop 
+  387  ls 
+  388  cd gomycode
+  389  ls
+  390  cat -n example.log example2.log
+  391  cat -n example.log example2.log > access_log.log
+  392  ls 
+  393  head access_log.log
+  394  tail access_log.log
+  395  cd /var/log/syslog/
+  396  ls 
+  397  cd /var/log/syslog
+  398  cd /var/log
+  399  ls
+  400  ls -ls
+  401  ls -la
+  402  cd sysstat/*
+  403  cd sysstat/
+  404  ls
+  405  cd .
+  406  cd -
+  407  cd ..
+  408  ls 
+  409  nano README
+  410  cd journal
+  411  ls
+  412  grep -i kali /var/log/journal
+  413  sudo grep -i kali /var/log/
+  414  sudo grep -i journal
+  415  cd ..
+  416  sudo grep -i journal
+  417  grep -i journal
+  418  grep -i kali /var/log/journal
+  419  grep -i kali /var/log/journal/
+  420  sudo grep -i kali /var/log/journal/
+  421  cd journal
+  422  ls
+  423  cd adae0cb13e174de4b9ed95eb5a24897e
+  424  ls
+  425  touch system.journal
+  426  sudo touch system.journal
+  427  grep -i kali /system.journal
+  428  nano system.journal
+  429  grep -i kali /var/log/syslog
+  430  grep -i kali /var/log/system.journal
+  431  ls
+  432  cd //
+  433  grep -i kali /var/log/system.journal
+  434  ls
+  435  cd desktop 
+  436  ls 
+  437  cd etc
+  438  ls
+  439  cd ..
+  440  ls
+  441  cd home 
+  442  ls
+  443  cd gomycode
+  444  ls
+  445  ls -la
+  446  clear
+  447  ls 
+  448  grep -i kali /var/log/syslog
+  449  cat -n example.log example2.log 
+  450  cat -n example.log example2.log > access_log.log
+  451  head access_log.log
+  452  tail access_log.log
+  453  logger "itstest"
+  454  grep -i kali /var/log/syslog\n\n
+  455  grep [plc] access_log.log
+  456  grep -E "[^^][0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}" webserver.log
